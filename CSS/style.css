@@ -126,6 +126,95 @@ body{
 
 }
 
+/* grid section */
+
+.grid-section{
+    background-color: #230E3D;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    /* padding: auto 200px 120px 200px; */
+
+}
+
+.grid-title{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.div-premium,.div-mobile,.div-mobile,.div-global,.div-exclusive,.div-rich{
+    background-color: #351165;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    color: #FFFFFF;
+
+}
+
+.img-view{
+    /* width: 100%; */
+    /* padding: 5px; */
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.grid-content{
+
+    margin: auto 150px 20px 150px;
+
+}
+.div-premium{
+    grid-area: div-premium;
+}
+
+.div-mobile{
+    grid-area: div-mobile;
+}
+
+.div-global{
+    grid-area: div-global;
+}
+
+.div-exclusive{
+    grid-area: div-exclusive;
+}
+
+.div-rich{
+    grid-area: div-rich;
+
+
+}
+
+.grid-content{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+
+    grid-template-areas:
+    
+    "div-premium div-mobile div-mobile"
+    "div-premium div-global div-global"
+    "div-exclusive div-exclusive div-rich"
+    
+    
+    ;
+}
+
+
+
+/* features */
+
+.featured-title{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
 
 
 
