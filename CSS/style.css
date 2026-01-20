@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #1A0B2E;
+    background-color: #1A0B2E; 
 
 }
 
@@ -86,3 +86,48 @@ body{
      font-size: 16px;
      font-weight: 400;
 }
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.about-view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.rating-view h1{
+    color: #00FF88;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+.about-text h1{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.about-text p{
+    color: #FFFFFF;
+}
+
+.rating-view p{
+    color: #FFFFFF;
+    font-size: 16;
+    font-weight: 400px;
+
+}
+
+
+
+
+
+
