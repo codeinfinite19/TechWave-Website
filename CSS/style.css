@@ -212,8 +212,58 @@ body{
     color: #FFFFFF;
 }
 
+.featured{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.featured-element{
+    border: none;
+    border-radius: 10px;
+    background-color:#250D44 ;
+
+}
+
+.featured-element h5{
+    color: #FFFFFF;
+
+}
+
+.featured-element p{
+    color: #FFFFFF;
+    
+}
+
+.featured-element h6{
+    color: #00FF88;
+    
+}
 
 
+/*meet section */
+
+.meet-title{
+    text-align: center;
+
+}
+
+.meet-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px;
+    background-color: #351165;
+}
+
+/* footer */
+
+footer{
+    background-image: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
 
 
 
