@@ -29,6 +29,11 @@ body{
     border-bottom: 0.5px solid #725d90;
 }
 
+.navbar h2{
+    cursor: pointer;
+    
+}
+
 .wave{
     background: linear-gradient(135deg, #F7E93F,#FB09B4,#9100F8);
     -webkit-background-clip: text;
@@ -241,6 +246,10 @@ body{
 
 }
 
+.about-text{
+    margin: auto 120px;
+}
+
 .about-text h1{
     color: #FFFFFF;
     margin-bottom: 10px;
@@ -259,8 +268,10 @@ body{
 }
 
 .line{
-    width: 60%;
-    background-color: #00E0FF;
+    width: 80%;
+    background-color: #282142;
+    height: 1px;
+    margin-top: 70px;
 }
 
 /* grid section */
@@ -314,8 +325,8 @@ body{
 
 .grid-content{
 
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1600px;
+    margin: 0 120px;
     padding: 0 20px;
     gap: 20px;
 
@@ -395,6 +406,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    margin: auto 120px;
 }
 
 .featured-element{
@@ -487,10 +499,13 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    margin: 20px;
+    margin: 20px 120px;
+    margin-bottom: 80px;
+    
     background-color: #351165;
     border: 0;
     border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
     /* text-align: center; */
 }
 .meet-img img{
