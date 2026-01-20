@@ -31,7 +31,7 @@ body{
 
 .navbar h2{
     cursor: pointer;
-    
+
 }
 
 .wave{
@@ -258,6 +258,10 @@ body{
 .about-text p{
     color: #FFFFFF;
     font-weight: 200;
+}
+
+.sp{
+    margin-top: 30px;
 }
 
 .rating-view p{
@@ -597,10 +601,163 @@ footer{
 }
 
 
+#menu-toggle {
+    display: none;
+}
+
+/* Hamburger */
+
+.hamburger {
+    display: none;
+    width: 28px;
+    height: 22px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Mobile menu */
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: linear-gradient(180deg, #2b0f4d, #1a082e);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 30px;
+    gap: 25px;
+    transition: 0.4s ease;
+    z-index: 10000;
+}
 
 
 
 
+
+
+@media screen and (max-width: 576px) {
+
+.navbar {
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 70px;
+}
+
+.hamburger {
+    display: flex;
+}
+
+.manu,
+.btn {
+    display: none;
+}
+
+.hero-section {
+    min-height: 100vh;
+}
+
+.hero-content {
+    padding-top: 20px;
+}
+
+.hero-circle {
+    width: 230px;
+    height: 230px;
+}
+
+.hero-circle .microphone {
+    width: 90px;
+}
+
+.hero-circle .new {
+    font-size: 14px;
+    padding: 8px 18px;
+}
+
+.hero-text h1 {
+    font-size: 2.2rem;
+}
+
+.hero-text p {
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.hero-text button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.about-text {
+    margin: 0 20px;
+}
+
+.about-view {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.line {
+    width: 90%;
+}
+
+.grid-content {
+    margin: 0 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "div-premium"
+    "div-mobile"
+    "div-global"
+    "div-exclusive"
+    "div-rich";
+}
+
+.featured {
+    grid-template-columns: 1fr;
+    margin: 0 20px;
+}
+
+.featured-element iframe {
+    height: 200px;
+}
+
+.meet-box {
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+
+.meet-img img {
+    margin: 0 auto;
+}
+
+.meet-social {
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.foter-social {
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+}
 
 
 
